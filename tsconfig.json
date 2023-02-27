@@ -12,7 +12,13 @@
       ],
       "screens/*": [
         "src/view/screens/*"
-      ]
+      ],
+      "provider/*": [
+        "src/provider/*"
+      ],
+      "colors/*": [
+        "src/styles/colors/*"
+      ],
     }
   }
 }

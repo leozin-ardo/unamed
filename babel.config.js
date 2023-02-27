@@ -6,6 +6,8 @@ const plugins = [
       alias: {
         components: './src/view/components/',
         screens: './src/view/screens/',
+        provider: './src/provider/',
+        colors: './src/styles/colors/',
       },
     },
   ],
