@@ -1,4 +1,4 @@
-import colors from 'colors/index';
+import colors from '@styles/colors';
 
 import React, {useCallback, useContext, useMemo, useState} from 'react';
 import {useColorScheme} from 'react-native';

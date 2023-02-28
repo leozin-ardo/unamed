@@ -1,12 +1,13 @@
-import {useTheme} from 'provider/Theme';
-import {SafeAreaView, Text} from 'react-native';
+import Title from '@components/Title';
+import Background from '@components/Background';
+import Description from '@components/Description';
 
 export default () => {
-  const {theme, setThemeType} = useTheme();
-  
+
   return (
-    <SafeAreaView style={{backgroundColor: theme.colors.background}}>
-      <Text>Ola Mundo 1</Text>
-    </SafeAreaView>
+    <Background>
+      <Title>Test</Title>
+      <Description>Teste de descrição</Description>
+    </Background>
   );
 };
